@@ -18,14 +18,16 @@ mix.styles(
         "resources/assets/template/css/font-awesome.min.css"
     ],
     "public/css/plantilla.css"
-).scripts(
-    [
-        "resources/assets/template/js/jquery.min.js",
-        "resources/assets/template/js/popper.min.js",
-        "resources/assets/template/js/bootstrap.min.js",
-        "resources/assets/template/js/Chart.min.js",
-        "resources/assets/template/js/pace.min.js",
-        "resources/assets/template/js/template.min.js"
-    ],
-    "public/js/plantilla.js"
-);
+)
+    .scripts(
+        [
+            "resources/assets/template/js/jquery.min.js",
+            "resources/assets/template/js/popper.min.js",
+            "resources/assets/template/js/bootstrap.min.js",
+            "resources/assets/template/js/Chart.min.js",
+            "resources/assets/template/js/pace.min.js",
+            "resources/assets/template/js/template.min.js"
+        ],
+        "public/js/plantilla.js"
+    )
+    .js(["resources/js/app.js"], "public/js/app.js");
