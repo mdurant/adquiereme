@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('contenido/contenido'); //se cmodifica la ruta al cambiar section y yield en "contenido de la view"
 });
